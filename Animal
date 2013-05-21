@@ -1,0 +1,59 @@
+
+public class Animal {
+  private String name="Animal";
+	private String gender="Male or Femal";
+	private int age=2;
+	private int weight=2;
+	private int speed=2;
+	public Animal()
+	{
+		//System.out.println("Constructing Animal");
+	    name="Initiate Name";
+		gender="Male";
+		age=0;
+		weight=0;
+		speed=0;
+	}
+	public void setAnimal(String NewName, String NewGender, int NewAge,int NewWeight, int NewSpeed)
+	{
+		name=NewName;
+		gender=NewGender;
+		age=NewAge;
+		weight=NewWeight;
+		speed=NewSpeed;
+	}
+	public void setName(String st)
+	{
+		name=st;
+	}
+	public void setGender(String st)
+	{
+		gender=st;
+	}
+	public void setAge(int i)
+	{
+		age=i;
+	}
+	public void setWeight(int i)
+	{
+		weight=i;
+	}
+	public void setSpeed(int i)
+	{
+		speed=i;
+	}
+	public void getAnimal()
+	{
+		System.out.printf("Name:%s gender:%s age:%d  weight=%d  speed:%d\n", name,gender,age,weight,speed);
+		
+	}
+	public void Talk()
+	{
+		System.out.println("Oss Oss Ooooo");
+	}
+	public int walk()
+	{
+		speed= speed + 5;
+		return speed;
+	}
+}
