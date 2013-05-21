@@ -1,0 +1,20 @@
+
+public class Monkey extends Bi_ped {
+
+  public Monkey()
+	{
+		super.setName("Dora");
+		super.setGender("male");
+		super.setAge(5);
+		super.setWeight(10);
+		super.setSpeed(30);
+		
+		
+		
+	}
+	public void getMonkey()
+	{
+		//System.out.printf("Name:%s Gender:%s, Age:%d  Weight:%d   Speed:%d",super.setName,super.setGender, 
+		super.getAnimal();
+	}
+}
