@@ -1,0 +1,22 @@
+
+public class AnimalTest {
+
+  
+	public static void main(String[] args) {
+		Animal a= new Animal();
+		Monkey an= new Monkey();
+		an.setName("DoDo");
+		an.setAge(10);
+		an.setGender("Male");
+		an.setSpeed(30);
+		an.setWeight(10);
+		an.getAnimal();
+		a.setName("Dina");
+		a.setAge(55);
+		a.setGender("Femal");
+		a.setWeight(50);
+		a.setSpeed(100);
+		a.getAnimal();
+	}
+
+}
